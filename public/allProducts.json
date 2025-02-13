@@ -1,0 +1,218 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/WNhY9rWP/iphone-15-pro-clear-magsafe-phone-case.jpg",
+    "category": "Phones",
+    "price": 800,
+    "description": "Flagship smartphone with A17 Bionic chip and titanium design",
+    "Specification": [
+      "6.7\" Super Retina XDR",
+      "48MP Pro Camera System",
+      "256GB Storage",
+      "A17 Bionic Chip",
+      "iOS 17"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "5G_support": true
+  },
+  {
+    "product_id": "A002",
+    "product_title": "Logitech MX Master",
+    "product_image": "https://i.ibb.co.com/nqTb8GNK/ms1033-01-500x500.webp",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Premium wireless ergonomic mouse for productivity",
+    "Specification": [
+      "8000 DPI",
+      "Darkfield Tracking",
+      "70-day Battery",
+      "USB-C Charging",
+      "Multi-computer Flow"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "connectivity": "Wireless"
+  },
+  {
+    "product_id": "L006",
+    "product_title": "Legion lenovo pro",
+    "product_image": "https://i.ibb.co.com/DHMFfHw5/acer-nitro-5-v15-anv15-51-core-i7-13620h-13th-gen-laptop-550x550.jpg",
+    "category": "Laptops",
+    "price": 1299,
+    "description": "Slim Windows laptop with PixelSense touchscreen",
+    "Specification": [
+      "Intel Core i5-1235U",
+      "8GB RAM",
+      "256GB SSD",
+      "13.5\" 2256x1504",
+      "Windows 11 Home"
+    ],
+    "availability": false,
+    "rating": 4.3,
+    "brand": "Microsoft"
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://i.ibb.co.com/zV2qbvXh/Pixel-8-Pro-Porcelain-5189.jpg",
+    "category": "Phones",
+    "price": 999,
+    "description": "AI-powered smartphone with Tensor G3 chip",
+    "Specification": [
+      "6.7\" LTPO OLED",
+      "50MP Triple Camera",
+      "12GB RAM + 256GB",
+      "Tensor G3 Chip",
+      "Android 14"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "5G_support": true
+  },
+  {
+    "product_id": "L001",
+    "product_title": "Msi raider ge68",
+    "product_image": "https://i.ibb.co.com/8LfCR1Zv/msi-raider-ge68-hx-13vg-gaming-laptop-550x550.jpg",
+    "category": "Laptops",
+    "price": 2499,
+    "description": "Professional laptop with M2 Pro chip and Liquid Retina XDR display",
+    "Specification": [
+      "M2 Pro 12-core CPU",
+      "32GB Unified Memory",
+      "1TB SSD",
+      "16.2-inch 3456x2234 Retina",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple"
+  },
+  {
+    "product_id": "L002",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/p6NCshMs/dell-xps-15-9520-intel-i7-12th-gen-laptop-01-550x550.jpg",
+    "category": "Laptops",
+    "price": 2000,
+    "description": "Ultrabook with 4K OLED touchscreen and Intel 13th Gen processors",
+    "Specification": [
+      "Intel Core i7-13700H",
+      "16GB DDR5 RAM",
+      "512GB NVMe SSD",
+      "15.6\" 3840x2400 OLED",
+      "Windows 11 Pro"
+    ],
+    "availability": false,
+    "rating": 4.6,
+    "brand": "Dell"
+  },
+  {
+    "product_id": "L003",
+    "product_title": "Acer Spectre nitro",
+    "product_image": "https://i.ibb.co.com/BVGbKjPp/lenovo-ideapad-gaming-3-15ach6-ryzen-5-5500h-gaming-laptop-550x550.jpg",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "2-in-1 convertible laptop with 3K OLED display",
+    "Specification": [
+      "Intel Core i7-1255U",
+      "16GB LPDDR4x RAM",
+      "1TB PCIe SSD",
+      "13.5\" 3000x2000 OLED",
+      "Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "HP"
+  },
+  {
+    "product_id": "L004",
+    "product_title": "ASUS ROG Zephyrus G14",
+    "product_image": "https://i.ibb.co.com/qwPhnpC/G614-JIR-550x550.jpg",
+    "category": "Laptops",
+    "price": 1699,
+    "description": "Gaming laptop with AMD Ryzen 9 and AniMe Matrix display",
+    "Specification": [
+      "AMD Ryzen 9 7940HS",
+      "16GB DDR5 RAM",
+      "1TB SSD",
+      "14\" 2560x1600 165Hz",
+      "NVIDIA RTX 4060"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "ASUS"
+  },
+  {
+    "product_id": "L005",
+    "product_title": "Lenovo ThinkPad Gen 11",
+    "product_image": "https://i.ibb.co.com/kLhHcf7/lenovo-legion-pro-5i-16irx9-core-i7-14th-gen-gaming-laptop-550x550.jpg",
+    "category": "Laptops",
+    "price": 1800,
+    "description": "Business laptop with military-grade durability",
+    "Specification": [
+      "Intel Core i7-1365U",
+      "32GB LPDDR5 RAM",
+      "1TB SSD",
+      "14\" 2880x1800 OLED",
+      "Windows 11 Pro"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Lenovo"
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.ibb.co.com/pv5qdD27/samsung-galaxy-s25-ultra-titanium-silver632.jpg",
+    "category": "Phones",
+    "price": 1000,
+    "description": "Android flagship with 200MP camera and S Pen support",
+    "Specification": [
+      "6.8\" Dynamic AMOLED 2X",
+      "200MP Main Camera",
+      "12GB RAM + 256GB",
+      "Snapdragon 8 Gen 2",
+      "5000mAh Battery"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "5G_support": true
+  },
+  {
+    "product_id": "A001",
+    "product_title": "Sony Wireless Headphones",
+    "product_image": "https://i.ibb.co.com/5x1VCchv/h510-zeus-x-rgb-white-01-500x500.jpg",
+    "category": "Accessories",
+    "price": 349,
+    "description": "Premium noise-canceling over-ear headphones",
+    "Specification": [
+      "30hr Battery",
+      "Bluetooth 5.2",
+      "HD Noise Canceling",
+      "Touch Controls",
+      "Multi-device Pairing"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "color": "Black"
+  },
+  {
+    "product_id": "A003",
+    "product_title": "Anker 737 Power Bank",
+    "product_image": "https://i.ibb.co.com/rXx5mWp/1716191127226166.jpg",
+    "category": "Accessories",
+    "price": 199,
+    "description": "High-capacity portable charger with 140W output",
+    "Specification": [
+      "24,000mAh Capacity",
+      "USB-C PD 3.1",
+      "LCD Power Display",
+      "GaNPrime Technology",
+      "3-port Output"
+    ],
+    "availability": false,
+    "rating": 4.6,
+    "wattage": 140
+  }
+]
