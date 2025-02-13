@@ -11,7 +11,7 @@ const Root = () => {
     useEffect(() => {
         if (getLocation) {
             setLocation(getLocation);
-           
+
         }
         else {
             setLocation("Home")
@@ -29,7 +29,7 @@ const Root = () => {
                 <Navbar />
                 <Outlet />
                 <Footer />
-                <ToastContainer />
+                <ToastContainer style={{ top: '40%' }} />
             </div>
         </SharedStateContext.Provider>
     );
