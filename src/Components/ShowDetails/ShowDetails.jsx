@@ -1,28 +1,28 @@
 import PropTypes from "prop-types";
-import { useContext} from "react";
+import { useContext } from "react";
 import { FaRegHeart, FaStar } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { SharedStateContext } from "../dataContexts/DataContexts";
 import { toast } from "react-toastify";
 
 const ShowDetails = ({ product }) => {
-    const { cart, setCart, wishlists, setWishlists, totalPrice, setTotalPrice} = useContext(SharedStateContext);
-    
-    const { product_title, product_image, price, description,Specification, availability, rating} = product;
+    const { cart, setCart, wishlists, setWishlists, totalPrice, setTotalPrice, reviews, setReviews } = useContext(SharedStateContext);
+
+    const { product_title, product_image, price, description, Specification, availability, rating } = product;
 
     const handleCartItem = (e) => {
-        e.target.disabled=true;
+        e.target.disabled = true;
         const isItemExists = cart.find(p => p.product_id === product.product_id);
         if (product.availability) {
             if (!isItemExists) {
                 setCart([...cart, product]);
                 toast.success(<span className="flex items-center gap-2">Item added to cart <FiShoppingCart className="text-2xl text-green-600"></FiShoppingCart></span>);
-                
+
                 setTotalPrice(totalPrice + product.price)
             }
             else {
                 toast.warning(<span className="flex items-center gap-2">Already exists in cart <FiShoppingCart className="text-2xl"></FiShoppingCart></span>);
-                
+
             }
         }
         else {
@@ -30,7 +30,7 @@ const ShowDetails = ({ product }) => {
         }
     }
     const handleWishListsItem = (e) => {
-        e.target.disabled= true;
+        e.target.disabled = true;
         const isItemExists = wishlists.find(p => p.product_id === product.product_id);
         if (product.availability) {
             if (!isItemExists) {
@@ -46,7 +46,16 @@ const ShowDetails = ({ product }) => {
         }
 
     }
-
+    const handleReviews = () => {
+        const isRated = reviews.find(p => p.product_id === product.product_id);
+        if (!isRated) {
+            setReviews([...reviews, product]);
+            toast("Ratings added")
+        }
+        else {
+            toast.warning("Already given ratings")
+        }
+    }
     return (
         <div className="p-8 bg-white rounded-3xl max-w-[1280px] w-11/12 relative bottom-28 mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-8">
@@ -77,7 +86,7 @@ const ShowDetails = ({ product }) => {
                     </div>
                     <h4 className="text-lg font-bold flex items-center gap-1">Rating <FaStar className="text-yellow-400 text-xl"></FaStar> </h4>
                     <div className="flex items-center gap-5">
-                        <div className="rating">
+                        <div onClick={handleReviews} className="rating">
                             <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#f8bf04]" aria-label="1 star" />
                             <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#f8bf04]" aria-label="2 star" />
                             <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#f8bf04]" aria-label="3 star" />
@@ -87,6 +96,7 @@ const ShowDetails = ({ product }) => {
                         </div>
                         <p className="py-1.5 px-3 bg-gray-200 rounded-3xl">{rating}</p>
                     </div>
+                    <p className="text-sm bg-yellow-100 rounded-xl w-fit">click on stars to add ratings</p>
                     <div className="flex gap-4 items-center">
                         <button onClick={handleCartItem} className="bg-[#9136da] rounded-full text-white text-lg font-bold flex items-center gap-2 hover:bg-white border-1 hover:border-[#9136da] btn py-[26px] px-7 hover:text-[#9136da]">
                             Add To Cart

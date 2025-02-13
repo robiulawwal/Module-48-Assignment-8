@@ -9,9 +9,9 @@ const Root = () => {
     const [cart, setCart] = useState([]);
     const [wishlists, setWishlists] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
-
+const [reviews,setReviews]= useState([])
     return (
-        <SharedStateContext.Provider value={{ cart, setCart, wishlists, setWishlists, totalPrice, setTotalPrice }}>
+        <SharedStateContext.Provider value={{ cart, setCart, wishlists, setWishlists, totalPrice, setTotalPrice,reviews,setReviews }}>
             <div className="font-sora bg-[#f6f6f6]">
                 <Navbar />
                 <Outlet />

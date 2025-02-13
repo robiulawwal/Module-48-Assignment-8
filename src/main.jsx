@@ -9,6 +9,7 @@ import Statics from './Components/Statics/Statics'
 import Dashboard from './Components/Dashboard/Dashboard'
 import Home from './Components/Home/Home'
 import ProductDetails from './Components/ProductDetails/ProductDetails'
+import Reviews from './Components/Review/Reviews'
 
 const routes = createBrowserRouter([
   {
@@ -35,6 +36,11 @@ const routes = createBrowserRouter([
         path:'/Product/:product_id',
         element:<ProductDetails></ProductDetails>,
         loader:()=>fetch('/allProducts.json')
+      },
+      {
+        path:'/Reviews',
+        element:<Reviews></Reviews>,
+
       }
     ]
     

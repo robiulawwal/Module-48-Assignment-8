@@ -16,6 +16,7 @@ const Navbar = () => {
                     <NavLink className={location === '/' ? "border-b-2" : ""} to='/'>Home</NavLink>
                     <NavLink className={location === '/Statics' ? "text-[#9538E2]" : ""} to='/Statics'>Statistics</NavLink>
                     <NavLink className={location === '/Dashboard' ? "text-[#9538E2]" : ""} to='/Dashboard'>Dashboard</NavLink>
+                    <NavLink className={location === '/Reviews' ? "text-[#9538E2]" : ""} to='/Reviews'>Reviews</NavLink>
                 </div>
 
                 <div className="flex gap-3">
