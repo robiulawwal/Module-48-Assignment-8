@@ -12,9 +12,6 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-// Sample data for the chart
-
-// Statics Component
 const Statics = () => {
     const data = useLoaderData();
   return (

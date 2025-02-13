@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Card = ({ product }) => {
     const { product_image, product_title, price, product_id, availability } = product;
     return (
-        <div className="p-6 rounded-2xl bg-white flex text-center flex-col gap-6 items-center">
+        <div className="p-6 rounded-2xl drop-shadow-xl bg-white flex text-center flex-col gap-6 items-center">
             <div className="relative h-[250px] w-full border-2 border-gray-300 rounded-2xl">
                 <img className="rounded-2xl h-full w-full object-cover" src={product_image} alt="" />
                 <span
