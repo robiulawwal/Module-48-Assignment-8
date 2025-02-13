@@ -5,7 +5,7 @@ Welcome to Gadget Heaven! This is a site to explore and buy the latest gadgets.
 [Visit Gadget Heaven](https://gadget-garden.surge.sh)
 
 ## Requirement Document
-[View the Requirement Document](file:///C:/webdevelopement%20projects/downloaded%20projects%20github/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf)
+[View the Requirement Document](https://i.ibb.co.com/3yM03gCK/Batch-10-Assignment-08.jpg)
 
 ## React Concepts Used
 1. Components
